@@ -123,6 +123,3 @@ To elevate this project, the following features are planned for future iteration
 - [ ] Direct file attachments/uploads rather than just file paths
 - [ ] Advanced searching capabilities by Case Status or Hash signatures
 
-## 🎓 Academic Credit
-
-Developed as an academic **DBMS Project** for **B.Tech program at IARE**.
