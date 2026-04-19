@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Evidence</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h2>Add Evidence</h2>
+
+    <form method="POST">
+        Case ID: <input type="number" name="case_id"><br><br>
+        File Path: <input type="text" name="file_path"><br><br>
+        Hash Value: <input type="text" name="hash_value"><br><br>
+        <button type="submit">Add</button>
+    </form>
+
+    <br><a href="/">Back</a>
+</body>
+</html>
