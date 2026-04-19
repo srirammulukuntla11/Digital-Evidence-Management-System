@@ -77,14 +77,14 @@ CREATE TABLE evidence (
 ```
 
 ### 4. Configure Application Variables
-Open the `app.py` file, find the database connection section, and update it with your MySQL credentials:
+Open the `app.py` file, find the database connection section, and update it with your own MySQL credentials:
 
 ```python
 # DB Connection in app.py
 db = mysql.connector.connect(
     host="localhost",
-    user="root",          # Your MySQL username
-    password="sriram@11", # Insert your MySQL password here
+    user="YOUR_MYSQL_USERNAME", # Replace with your MySQL username
+    password="YOUR_MYSQL_PASSWORD", # Replace with your MySQL password
     database="evidence_db"
 )
 ```
